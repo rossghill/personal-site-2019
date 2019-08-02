@@ -4,5 +4,31 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 1, ../sass/_basic.scss */
 body {
-  background: honeydew;
+  background-image: linear-gradient(to bottom right, coral, aquamarine);
+  border: 2em solid black;
+  margin: 2em;
+}
+
+/* line 8, ../sass/_basic.scss */
+p {
+  margin-block-end: 0;
+}
+
+/* line 12, ../sass/_basic.scss */
+#title {
+  font-size: 200px;
+}
+
+/* line 16, ../sass/_basic.scss */
+.type1 {
+  background: crimson;
+  border: 1em solid black;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+/* line 22, ../sass/_basic.scss */
+.type1:hover {
+  transform: matrix(0.586, 0.8, -0.8, 0.586, 40, 40);
+  transition: 1.5s;
 }
