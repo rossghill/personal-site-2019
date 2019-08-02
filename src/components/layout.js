@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import "../compass/stylesheets/screen.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
