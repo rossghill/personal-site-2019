@@ -20,13 +20,18 @@ a {
     color: inherit;
 }
 
-a:hover {
+.coral-icon:hover {
     color: coral;
-    transition: 0.6s;
+    transition: 0.4s;
+}
+
+.aqua-icon:hover {
+    color: aquamarine;
+    transition: 0.4s;
 }
 
 #title {
-    font-size: 200px;
+    font-size: 111px;
 }
 
 .type1 {
@@ -37,12 +42,17 @@ a:hover {
     margin: 0 auto;
     padding:20px;
     margin-bottom: 1.45em;
+    margin-top: 1.45em;
     &:hover{
         // transform: matrix(0.586,0.8,-0.8,0.586,40,40);
         // transition: 1.5s;
         transform: scale(1.1, 1.1);
         transition: 0.5s;
     }
+}
+
+h2 {
+    margin-bottom: 0.5em;
 }
 
 .social-row {

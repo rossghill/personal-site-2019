@@ -29,17 +29,23 @@ a {
 }
 
 /* line 23, ../sass/_basic.scss */
-a:hover {
+.coral-icon:hover {
   color: coral;
-  transition: 0.6s;
+  transition: 0.4s;
 }
 
 /* line 28, ../sass/_basic.scss */
-#title {
-  font-size: 200px;
+.aqua-icon:hover {
+  color: aquamarine;
+  transition: 0.4s;
 }
 
-/* line 32, ../sass/_basic.scss */
+/* line 33, ../sass/_basic.scss */
+#title {
+  font-size: 111px;
+}
+
+/* line 37, ../sass/_basic.scss */
 .type1 {
   border: 1em solid black;
   width: 250px;
@@ -47,14 +53,20 @@ a:hover {
   margin: 0 auto;
   padding: 20px;
   margin-bottom: 1.45em;
+  margin-top: 1.45em;
 }
-/* line 40, ../sass/_basic.scss */
+/* line 46, ../sass/_basic.scss */
 .type1:hover {
   transform: scale(1.1, 1.1);
   transition: 0.5s;
 }
 
-/* line 48, ../sass/_basic.scss */
+/* line 54, ../sass/_basic.scss */
+h2 {
+  margin-bottom: 0.5em;
+}
+
+/* line 58, ../sass/_basic.scss */
 .social-row {
   display: flex;
   padding: 10px 0 10px 0;
