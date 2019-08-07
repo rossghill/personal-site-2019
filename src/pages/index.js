@@ -8,6 +8,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
+    <link rel="shortcut icon" type="image/png" href="..images/favicon.png"></link>
     {/* <p>Welcome to my new Gatsby site.</p> */}
     <h1 id="title">Ross Hill</h1>
     <h2>Web Developer</h2>
@@ -23,7 +24,6 @@ const IndexPage = () => (
           <a class="coral-icon" target="_blank" href="https://twitter.com/ross_edin"><i class="icon-social-twitter icons"></i></a>         
         </div> 
       </div>
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
   </Layout>
 )
 
