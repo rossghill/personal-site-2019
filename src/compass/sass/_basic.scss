@@ -1,13 +1,28 @@
+@font-face {
+    font-family: "Formula";
+    src: url("../../../fonts/FormulaCondensed-Bold.woff")   format("woff");
+  } 
+
 body {
-    background-image: linear-gradient(to bottom right, coral, aquamarine);
-    border: 2em solid black;
-    margin: 2em;
+    background-image: linear-gradient(to bottom right, gold, wheat);
+    padding: 2em;
     background-repeat:no-repeat;
-    background-size: 100vw 100vh;
+    // background-size: 100vw 100vh;
+    color: #232924;
+    font-family: 'Vision';
+}
+
+.intro {
+    padding-bottom: 3em;
 }
 
 p {
     margin-block-end: 0;
+    font-family: 'Formula';
+    color: #232924;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    padding: 0.5em 0 0.5em 0;
 }
 
 i {
@@ -16,18 +31,18 @@ i {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: inherit;
 }
 
-.coral-icon:hover {
+a:hover, .coral-icon:hover {
     color: coral;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .aqua-icon:hover {
     color: aquamarine;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 #title {
@@ -35,20 +50,23 @@ a {
 }
 
 .type1 {
-    // background: crimson;
-    border: 1em solid black;
-    width: 250px;
-    height: 250px;
+    border: 1px solid #232924;
+    width: 240px;
+    height: 230px;
     margin: 0 auto;
     padding:20px;
     margin-bottom: 1.45em;
-    margin-top: 1.45em;
+    margin-top: 3em;
     &:hover{
-        // transform: matrix(0.586,0.8,-0.8,0.586,40,40);
-        // transition: 1.5s;
         transform: scale(1.1, 1.1);
         transition: 0.5s;
     }
+}
+
+h1 {
+    font-family: 'Formula';
+    color: #232924;
+    letter-spacing: 2px;
 }
 
 h2 {
@@ -57,5 +75,30 @@ h2 {
 
 .social-row {
     display: flex;
+    justify-content: space-between;
     padding: 10px 0 10px 0;
+    a {
+        text-decoration: none;
+    }
+}
+
+svg {
+    font-family: 'Formula';
+    width: 100%;
+}
+
+.projects {
+    padding: 0 0 2em 0;
+    border-bottom: 1px solid #232924;
+    &__title {
+        padding: 1em 0 1em 0;
+        border-top: 1px solid #232924;
+        border-bottom: 1px solid #232924;
+        margin-bottom: 1.5em;
+    }
+    img {
+        width: 200px !important;
+        height: 200px !important;
+        border-radius: 100px;
+    }
 }

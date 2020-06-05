@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import "./layout.css"
-import "../compass/stylesheets/screen.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
