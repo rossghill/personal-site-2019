@@ -89,12 +89,16 @@ svg {
 
 .projects {
     padding: 0 0 2em 0;
-    border-bottom: 1px solid #232924;
+    // border-bottom: 1px solid #232924;
     &__title {
         padding: 1em 0 1em 0;
         border-top: 1px solid #232924;
         border-bottom: 1px solid #232924;
-        margin-bottom: 1.5em;
+    }
+    &__info {
+        border-bottom: 1px solid #232924;
+        margin-top: 1.5em;
+        padding-bottom: 1.5em;
     }
     img {
         width: 200px !important;
