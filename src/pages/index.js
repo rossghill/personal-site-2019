@@ -17,7 +17,8 @@ const IndexPage = () => (
       <text x="0" y="15" fill="#232924">Ross Hill</text>
     </svg>
 
-    <img src="https://i.ibb.co/gWB2R4f/preview.png" style="display:none" />
+    {/* Hidden preview card image because Linkedins metadata detection is broken */}
+    <div class="preview-img"><img src="https://i.ibb.co/gWB2R4f/preview.png"></img></div>
   
     <div class="intro">
       <p>Hi, I'm Ross. I'm a web developer based in Edinburgh, UK.</p>
