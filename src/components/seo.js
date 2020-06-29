@@ -48,6 +48,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          property: `og:image`,
+          content: "https://i.ibb.co/gWB2R4f/preview.png"
+        }
+        {
           property: `og:type`,
           content: `website`,
         },
