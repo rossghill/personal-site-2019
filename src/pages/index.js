@@ -16,6 +16,8 @@ const IndexPage = () => (
     <svg viewBox="0 0 48 18">
       <text x="0" y="15" fill="#232924">Ross Hill</text>
     </svg>
+
+    <img src="https://i.ibb.co/gWB2R4f/preview.png" style="display:none" />
   
     <div class="intro">
       <p>Hi, I'm Ross. I'm a web developer based in Edinburgh, UK.</p>
