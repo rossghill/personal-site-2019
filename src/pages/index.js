@@ -13,10 +13,6 @@ const IndexPage = () => (
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
     <link rel="shortcut icon" type="image/png" href="..images/favicon.png"></link>
 
-    <meta property='og:title' content="Ross Hill portfolio" />
-    <meta property='og:image' content="../images/preview.jpg"/>
-    {/* <meta property='og:description' content="Description that will show in the preview"/> */}
-
     <svg viewBox="0 0 48 18">
       <text x="0" y="15" fill="#232924">Ross Hill</text>
     </svg>
